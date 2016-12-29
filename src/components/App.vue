@@ -78,6 +78,8 @@
       margin: 0;
       padding: 20px;
       overflow: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
     }
   }
   .rainbow-text {
