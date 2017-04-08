@@ -14,7 +14,7 @@
 
 <script>
   import highlight from 'utils/highlight'
-  import marked from 'marked'
+  import mmark from 'mmark'
 
   export default {
     data() {
@@ -24,7 +24,7 @@
     },
     computed: {
       rawHtml() {
-        return highlight(marked(this.input))
+        return highlight(mmark(this.input))
       }
     }
   }
