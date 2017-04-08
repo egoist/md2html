@@ -3038,9 +3038,9 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkd
   dependencies:
     minimist "0.0.8"
 
-mmark@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/mmark/-/mmark-0.1.0.tgz#8474340147572b75efe753702b83271d8e130e04"
+mmark@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/mmark/-/mmark-0.1.1.tgz#d675504678cd9b3e6ad62478beca776063a88052"
 
 ms@0.7.2:
   version "0.7.2"
