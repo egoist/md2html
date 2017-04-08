@@ -13,7 +13,7 @@
 </template>
 
 <script>
-  import highlight from 'utils/highlight'
+  import highlight from '@/utils/highlight'
   import mmark from 'mmark'
 
   export default {
@@ -51,10 +51,10 @@
     align-items: center;
     text-align: center;
     height: 10%;
-    h1 {
-      margin: 0;
-      font-weight: normal;
-    }
+  }
+  .header h1 {
+    margin: 0;
+    font-weight: normal;
   }
   .main {
     display: flex;
@@ -73,14 +73,14 @@
     width: 50%;
     height: 100%;
     background-color: #f9f9f9;
-    pre {
-      height: 100%;
-      margin: 0;
-      padding: 20px;
-      overflow: auto;
-      white-space: pre-wrap;
-      word-break: break-word;
-    }
+  }
+  .raw-html pre {
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
   }
   .rainbow-text {
     -webkit-background-clip: text;
