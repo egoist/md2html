@@ -14,7 +14,7 @@
 
 <script>
   import highlight from '@/utils/highlight'
-  import mmark from 'mmark'
+  import marked3 from 'marked3'
 
   export default {
     data() {
@@ -24,7 +24,7 @@
     },
     computed: {
       rawHtml() {
-        return highlight(mmark(this.input))
+        return highlight(marked3(this.input))
       }
     }
   }
@@ -85,8 +85,8 @@
   .rainbow-text {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-gradient(linear,  left top,  right top, 
-      color-stop(0.00, red), 
+    background-image: -webkit-gradient(linear,  left top,  right top,
+      color-stop(0.00, red),
       color-stop(16%, orange),
       color-stop(32%, yellow),
       color-stop(48%, green),
