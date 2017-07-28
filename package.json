@@ -4,16 +4,16 @@
   "main": "src/index.js",
   "homepage": "/md2html/",
   "scripts": {
-    "dev": "vbuild --dev",
-    "build": "vbuild",
+    "dev": "poi ",
+    "build": "poi build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "highlight.js": "^9.9.0",
-    "marked3": "^0.3.1"
+    "marked3": "^0.5.1"
   },
   "devDependencies": {
-    "gh-pages": "^0.12.0",
-    "vbuild": "^6.24.14"
+    "gh-pages": "^1.0.0",
+    "poi": "^9.1.6"
   }
 }
