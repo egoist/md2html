@@ -2,18 +2,22 @@
   "private": true,
   "name": "md2html",
   "main": "src/index.js",
-  "homepage": "/md2html/",
   "scripts": {
-    "dev": "poi ",
+    "dev": "poi dev",
     "build": "poi build",
     "deploy": "gh-pages -d dist"
   },
+  "poi": {
+    "entry": "src/index.js"
+  },
   "dependencies": {
     "highlight.js": "^9.9.0",
-    "marked3": "^0.5.1"
+    "marked3": "^0.5.1",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
-    "poi": "^9.1.6"
+    "poi": "^11.0.0-alpha.3"
   }
 }
