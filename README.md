@@ -4,11 +4,11 @@
 
 Generate HTML from markdown string (online)
 
-🔥👉 https://egoistian.com/md2html
+🔥👉 https://md2html.egoist.rocks
 
 ## Motivation
 
-Sometimes I just want the HTML result for a markdown string, not to preview it.
+Sometimes I just want the raw HTML result for a markdown string, not to preview it.
 
 ## Contributing
 
