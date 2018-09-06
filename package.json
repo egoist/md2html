@@ -4,8 +4,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "poi dev",
-    "build": "poi build",
-    "deploy": "gh-pages -d dist"
+    "build": "poi build"
   },
   "poi": {
     "entry": "src/index.js"
@@ -17,7 +16,6 @@
     "vue-template-compiler": "^2.5.17"
   },
   "devDependencies": {
-    "gh-pages": "^1.0.0",
     "poi": "^11.0.0-alpha.3"
   }
 }
